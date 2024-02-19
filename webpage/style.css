@@ -1,0 +1,230 @@
+/*
+A portion of this code (the following section) is provided under the MIT License.
+Please refer to the details below for more information.
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Luke Haas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+#message {
+    text-align: center;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+}
+
+#choices .choice {
+    box-sizing: border-box;
+    padding: 0vw 4vw;
+}
+
+.choice button {
+    width: 15vw;
+    height: 20vh;
+}
+
+#question {
+    width: 80vw;
+    padding: 10vh 0vw;
+    margin-top: 5vh;
+    margin-right: 10vw;
+    margin-bottom: 20vh;
+    margin-left: 10vw;
+    text-align: center;
+    background-color: beige;
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(100, 100, 100, 0.0);
+    display: none;
+}
+
+#instructionMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    box-sizing: border-box
+}
+
+#questionArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+/*Calibration*/
+.Calibration {
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: red;
+    opacity: 0.2;
+    border-color: black;
+    border-style: solid;
+    position: fixed;
+    z-index: 20;
+}
+
+#Pt1{
+    top: 2vh;
+    left:340px;
+}
+#Pt2{
+    top: 2vh;
+    left:50vw;
+    margin-left: 340;
+}
+#Pt3{
+    top: 2vh;
+    right:2vw;
+}
+#Pt4{
+    top:50vh;
+    left:2vw;
+}
+#Pt5{
+    top: 50vh;
+    left: 50vw;
+}
+#Pt6{
+    top: 50vh;
+    right:2vw;
+}
+#Pt7{
+    bottom:2vw;
+    left: 2vw;
+}
+#Pt8{
+    bottom:2vw;
+    left:50vw;
+}
+#Pt9{
+    bottom:2vw;
+    right:2vw;
+}
+
+/*VAS*/
+#vasElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+    height: 98vh;
+}
+
+#confidenceVasQuestion{
+    text-align: center
+}
+
+#hesitationVasQuestion{
+    text-align: center
+}
+
+#vasElement .container {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px; 
+}
+
+#vasElement .vas-container {
+    width: 10cm;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    cursor: pointer;
+}
+
+#vasElement .vas {
+    width: 3px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nextQuestionButton {
+    width: 10vw;
+    height: 5vh;
+}
+
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+.loader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: fixed;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255,168,168, 0.2);
+  border-right: 1.1em solid rgba(255,168,168, 0.2);
+  border-bottom: 1.1em solid rgba(255,168,168, 0.2);
+  border-left: 1.1em solid #ffa8a8;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+  top: 35vh;
+  left: 45vw;
+  z-index: 9999;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+

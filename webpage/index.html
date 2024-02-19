@@ -1,0 +1,101 @@
+<!-- 
+A portion of this code (the following section) is provided under the MIT License.
+Please refer to the details below for more information.
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Luke Haas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
+
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>confidence survey</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="overlay">
+        <!--キャリブレーション用-->
+        <input type="button" class="Calibration" id="Pt1"></input>
+        <input type="button" class="Calibration" id="Pt2"></input>
+        <input type="button" class="Calibration" id="Pt3"></input>
+        <input type="button" class="Calibration" id="Pt4"></input>
+        <input type="button" class="Calibration" id="Pt5"></input>
+        <input type="button" class="Calibration" id="Pt6"></input>
+        <input type="button" class="Calibration" id="Pt7"></input>
+        <input type="button" class="Calibration" id="Pt8"></input>
+        <input type="button" class="Calibration" id="Pt9"></input>
+    </div>
+
+    <div class="loader">Loading...</div> <!--ローディング-->
+
+    <div id="instructionMessage">
+        <div id="message" style="display: none;"></div>
+        <button id="nextButton" style="display: none;">次へ進む</button>
+    </div>
+
+    <div id="questionArea" style="display: none;">
+        <div id="question"></div>
+        <ul id="choices"></ul>
+    </div>
+
+    <div id="vasElement" style="display: none;">
+        <!-- 確信度回答時ここにvas表示用のコードが入る -->
+        <!-- 一つ目の質問 -->
+        <div id="confidenceVasQuestion">
+            どの程度自身の回答が正解していると思いますか？<br>直線の両端のテキストを参考に該当する位置をクリックしてください <!--質問文-->
+        </div>
+        <div class="container">
+            <div>全く自信がない</div> <!--左テキスト-->
+            <div class="vas-container"> <!--横線-->
+                <div class="vas"> <!--選択した位置を示す-->
+                </div>
+            </div>
+            <div>とても自信がある</div> <!--右テキスト-->
+        </div>
+
+        <!-- 二つ目の質問 -->
+        <div id="hesitationVasQuestion">
+            答えを選択する際どの程度迷いましたか<br>直線の両端のテキストを参考に該当する位置をクリックしてください <!--質問文-->
+        </div>
+        <div class="container">
+            <div>全く迷っていない</div> <!--左テキスト-->
+            <div class="vas-container"> <!--横線-->
+                <div class="vas" id="slider"> <!--選択した位置を示す-->
+                </div>
+            </div>
+            <div>とても迷った</div> <!--右テキスト-->
+        </div>
+
+        <div id="value" style="display: none;">0</div>
+    </div>
+
+    <script src="webgazer.js"></script>
+    <script type="module" src="quiz-and-confidence.js"></script>
+    <script type="module" src="feature-extractor.js"></script>
+    <script type="module" src="calibration.js"></script>
+    <script type="module" src="downloads.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

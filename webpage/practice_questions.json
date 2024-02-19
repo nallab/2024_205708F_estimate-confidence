@@ -1,0 +1,15 @@
+[
+    {
+        "qid": "practice",
+        "question": "She found a (        ) in her backpack.",
+        "answer_entity": "book",
+        "answer_candidates": [
+            "book",
+            "table",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    }
+]

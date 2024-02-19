@@ -1,0 +1,653 @@
+[
+    {
+        "qid": "qid-1",
+        "question": "Jone ate (        ), but he don't like it.",
+        "answer_entity": "apple",
+        "answer_candidates": [
+            "apple",
+            "car",
+            "similar",
+            "let"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-2",
+        "question": "She found a (        ) in her backpack.",
+        "answer_entity": "book",
+        "answer_candidates": [
+            "book",
+            "table",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-3",
+        "question": "The (        ) is on the shelf.",
+        "answer_entity": "cat",
+        "answer_candidates": [
+            "cat",
+            "run",
+            "yellow",
+            "happy"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-4",
+        "question": "I want to (        ) a new language.",
+        "answer_entity": "learn",
+        "answer_candidates": [
+            "learn",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-5",
+        "question": "The (        ) is very hot today.",
+        "answer_entity": "weather",
+        "answer_candidates": [
+            "weather",
+            "book",
+            "happy",
+            "write"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-6",
+        "question": "She bought a (        ) dress for the party.",
+        "answer_entity": "beautiful",
+        "answer_candidates": [
+            "beautiful",
+            "run",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 4
+    },
+    {
+        "qid": "qid-7",
+        "question": "I have a (        ) brother and two sisters.",
+        "answer_entity": "younger",
+        "answer_candidates": [
+            "younger",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-8",
+        "question": "She went to the (        ) to buy some vegetables.",
+        "answer_entity": "market",
+        "answer_candidates": [
+            "market",
+            "book",
+            "happy",
+            "write"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-9",
+        "question": "The teacher asked us to (        ) the story.",
+        "answer_entity": "read",
+        "answer_candidates": [
+            "read",
+            "run",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-10",
+        "question": "He is a (        ) player in the team.",
+        "answer_entity": "strong",
+        "answer_candidates": [
+            "strong",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 4
+    },
+    {
+        "qid": "qid-11",
+        "question": "Jone ate (        ), but he don't like it.",
+        "answer_entity": "apple",
+        "answer_candidates": [
+            "apple",
+            "car",
+            "similar",
+            "let"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-12",
+        "question": "She found a (        ) in her backpack.",
+        "answer_entity": "book",
+        "answer_candidates": [
+            "book",
+            "table",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-13",
+        "question": "The (        ) is on the shelf.",
+        "answer_entity": "cat",
+        "answer_candidates": [
+            "cat",
+            "run",
+            "yellow",
+            "happy"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-14",
+        "question": "I want to (        ) a new language.",
+        "answer_entity": "learn",
+        "answer_candidates": [
+            "learn",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-15",
+        "question": "The (        ) is very hot today.",
+        "answer_entity": "weather",
+        "answer_candidates": [
+            "weather",
+            "book",
+            "happy",
+            "write"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-16",
+        "question": "She bought a (        ) dress for the party.",
+        "answer_entity": "beautiful",
+        "answer_candidates": [
+            "beautiful",
+            "run",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 4
+    },
+    {
+        "qid": "qid-17",
+        "question": "I have a (        ) brother and two sisters.",
+        "answer_entity": "younger",
+        "answer_candidates": [
+            "younger",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-18",
+        "question": "She went to the (        ) to buy some vegetables.",
+        "answer_entity": "market",
+        "answer_candidates": [
+            "market",
+            "book",
+            "happy",
+            "write"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-19",
+        "question": "The teacher asked us to (        ) the story.",
+        "answer_entity": "read",
+        "answer_candidates": [
+            "read",
+            "run",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-20",
+        "question": "He is a (        ) player in the team.",
+        "answer_entity": "strong",
+        "answer_candidates": [
+            "strong",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 4
+    },
+    {
+        "qid": "qid-21",
+        "question": "Jone ate (        ), but he don't like it.",
+        "answer_entity": "apple",
+        "answer_candidates": [
+            "apple",
+            "car",
+            "similar",
+            "let"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-22",
+        "question": "She found a (        ) in her backpack.",
+        "answer_entity": "book",
+        "answer_candidates": [
+            "book",
+            "table",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-23",
+        "question": "The (        ) is on the shelf.",
+        "answer_entity": "cat",
+        "answer_candidates": [
+            "cat",
+            "run",
+            "yellow",
+            "happy"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-24",
+        "question": "I want to (        ) a new language.",
+        "answer_entity": "learn",
+        "answer_candidates": [
+            "learn",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-25",
+        "question": "The (        ) is very hot today.",
+        "answer_entity": "weather",
+        "answer_candidates": [
+            "weather",
+            "book",
+            "happy",
+            "write"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-26",
+        "question": "She bought a (        ) dress for the party.",
+        "answer_entity": "beautiful",
+        "answer_candidates": [
+            "beautiful",
+            "run",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 4
+    },
+    {
+        "qid": "qid-27",
+        "question": "I have a (        ) brother and two sisters.",
+        "answer_entity": "younger",
+        "answer_candidates": [
+            "younger",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-28",
+        "question": "She went to the (        ) to buy some vegetables.",
+        "answer_entity": "market",
+        "answer_candidates": [
+            "market",
+            "book",
+            "happy",
+            "write"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-29",
+        "question": "The teacher asked us to (        ) the story.",
+        "answer_entity": "read",
+        "answer_candidates": [
+            "read",
+            "run",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-30",
+        "question": "He is a (        ) player in the team.",
+        "answer_entity": "strong",
+        "answer_candidates": [
+            "strong",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 4
+    },
+    {
+        "qid": "qid-31",
+        "question": "Jone ate (        ), but he don't like it.",
+        "answer_entity": "apple",
+        "answer_candidates": [
+            "apple",
+            "car",
+            "similar",
+            "let"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-32",
+        "question": "She found a (        ) in her backpack.",
+        "answer_entity": "book",
+        "answer_candidates": [
+            "book",
+            "table",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-33",
+        "question": "The (        ) is on the shelf.",
+        "answer_entity": "cat",
+        "answer_candidates": [
+            "cat",
+            "run",
+            "yellow",
+            "happy"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-34",
+        "question": "I want to (        ) a new language.",
+        "answer_entity": "learn",
+        "answer_candidates": [
+            "learn",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-35",
+        "question": "The (        ) is very hot today.",
+        "answer_entity": "weather",
+        "answer_candidates": [
+            "weather",
+            "book",
+            "happy",
+            "write"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-36",
+        "question": "She bought a (        ) dress for the party.",
+        "answer_entity": "beautiful",
+        "answer_candidates": [
+            "beautiful",
+            "run",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 4
+    },
+    {
+        "qid": "qid-37",
+        "question": "I have a (        ) brother and two sisters.",
+        "answer_entity": "younger",
+        "answer_candidates": [
+            "younger",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-38",
+        "question": "She went to the (        ) to buy some vegetables.",
+        "answer_entity": "market",
+        "answer_candidates": [
+            "market",
+            "book",
+            "happy",
+            "write"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-39",
+        "question": "The teacher asked us to (        ) the story.",
+        "answer_entity": "read",
+        "answer_candidates": [
+            "read",
+            "run",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-40",
+        "question": "He is a (        ) player in the team.",
+        "answer_entity": "strong",
+        "answer_candidates": [
+            "strong",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 4
+    },
+    {
+        "qid": "qid-41",
+        "question": "Jone ate (        ), but he don't like it.",
+        "answer_entity": "apple",
+        "answer_candidates": [
+            "apple",
+            "car",
+            "similar",
+            "let"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-42",
+        "question": "She found a (        ) in her backpack.",
+        "answer_entity": "book",
+        "answer_candidates": [
+            "book",
+            "table",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-43",
+        "question": "The (        ) is on the shelf.",
+        "answer_entity": "cat",
+        "answer_candidates": [
+            "cat",
+            "run",
+            "yellow",
+            "happy"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-44",
+        "question": "I want to (        ) a new language.",
+        "answer_entity": "learn",
+        "answer_candidates": [
+            "learn",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-45",
+        "question": "The (        ) is very hot today.",
+        "answer_entity": "weather",
+        "answer_candidates": [
+            "weather",
+            "book",
+            "happy",
+            "write"
+        ],
+        "answer_index": 1,
+        "grade": 2
+    },
+    {
+        "qid": "qid-46",
+        "question": "She bought a (        ) dress for the party.",
+        "answer_entity": "beautiful",
+        "answer_candidates": [
+            "beautiful",
+            "run",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 4
+    },
+    {
+        "qid": "qid-47",
+        "question": "I have a (        ) brother and two sisters.",
+        "answer_entity": "younger",
+        "answer_candidates": [
+            "younger",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-48",
+        "question": "She went to the (        ) to buy some vegetables.",
+        "answer_entity": "market",
+        "answer_candidates": [
+            "market",
+            "book",
+            "happy",
+            "write"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-49",
+        "question": "The teacher asked us to (        ) the story.",
+        "answer_entity": "read",
+        "answer_candidates": [
+            "read",
+            "run",
+            "blue",
+            "jump"
+        ],
+        "answer_index": 1,
+        "grade": 3
+    },
+    {
+        "qid": "qid-50",
+        "question": "He is a (        ) player in the team.",
+        "answer_entity": "strong",
+        "answer_candidates": [
+            "strong",
+            "table",
+            "green",
+            "sleep"
+        ],
+        "answer_index": 1,
+        "grade": 4
+    }
+]
+
